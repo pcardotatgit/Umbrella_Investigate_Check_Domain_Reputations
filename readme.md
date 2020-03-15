@@ -35,13 +35,15 @@ Installing these script is pretty straight forward . You can just copy and paste
 	
 ### install needed modules
 
-	pip install requirements
+	pip install -r requirements.txt
 	
 ## Running the scripts
 
 - First you must have a valid Investigate API token.  Copy it into the file named token.txt
 - Second test your connectivity with INVESTIGATE Backend.  Run the 1-test_access_to_investigate.py script
+
 	$python 1-test_access_to_investigate.py
+	
 - Then you are ready to go
 - Next step is to fill the domains.txt file with the domains you want to check. Put one domain per line
 - Run the scripts
@@ -60,5 +62,5 @@ Installing these script is pretty straight forward . You can just copy and paste
 
 # Credit and References
 
-	Cisco DEVNET Security Express Workshop
+	Cisco DEVNET Express Security Workshop
 	
