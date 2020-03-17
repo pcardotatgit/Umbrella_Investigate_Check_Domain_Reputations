@@ -4,7 +4,7 @@ This set of scripts request domain reputation to the Umbrella Investigate Backen
 
 The last script will dynamically get domain reputations for domains in all URLs contained in any INTERNET Web Page.
 
-You must have access to INVESTIGATEin order to be abal to run these scripts.  Thanks to this you will be able to generate your Authentication token into the Umbrella INVESTIGATE Dashboard.
+You must have access to INVESTIGATE in order to be abal to run these scripts.  Thanks to this you will be able to generate your Authentication token into the Umbrella INVESTIGATE Dashboard.
 
 It is named  **investigate_api_key** in the scripts.
 
@@ -82,6 +82,8 @@ Next step is to fill the domains.txt file with the domains you want to check. Pu
 		$python 4-check_links_status_from_a_webpage.py
 	
 	This above script first retreives all domains from url links contained into a web page and check for their Security Information.
+	
+	The script will ask you for the URL to check
 
 # Credit and References
 
