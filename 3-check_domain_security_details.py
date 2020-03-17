@@ -57,7 +57,7 @@ def check_categorization(header,file,categories):
 			else:
 				domain_list.append(line.strip())
 
-	fh = open("resultat.txt", "w")
+	fh = open("./output/resultat.txt", "w")
 	line_out='domain;found;category;status;securerank2;asn_score;prefix_score;rip_score;attack;threat_type'
 	fh.write(line_out)
 	fh.write('\n')

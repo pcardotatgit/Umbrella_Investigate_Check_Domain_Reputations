@@ -55,8 +55,8 @@ def check_categorization(header,file,categories):
 			else:
 				domain_list.append(line.strip())
 
-	fh = open("resultat_categorie.txt", "w")
-	fi = open("resultat_reputation.txt", "w")
+	fh = open("./output/resultat_categorie.txt", "w")
+	fi = open("./output/resultat_reputation.txt", "w")
 	# loop through all domains
 	for domain in domain_list:
 		print(domain)
