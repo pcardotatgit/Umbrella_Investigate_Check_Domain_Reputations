@@ -48,16 +48,20 @@ You can install these modules with the following :
 	
 ## Running the scripts
 
-### First you must have a valid Investigate API token.  Copy it into the file named token.txt
-### Second test your connectivity with INVESTIGATE Backend.  Run the 1-test_access_to_investigate.py script
+First you must have a valid Investigate API token.  Copy it into the file named token.txt
+
+Second test your connectivity with INVESTIGATE Backend.  Run the 1-test_access_to_investigate.py script
 
 	$python 1-test_access_to_investigate.py
 	
-### Then you are ready to go
-### Next step is to fill the domains.txt file with the domains you want to check. Put one domain per line
-### Run the scripts
+Then you are ready to go
+
+Next step is to fill the domains.txt file with the domains you want to check. Put one domain per line
+
+Run the scripts
 
 - 1/ for getting basic information for every domains
+
 
 	$python 2-check_domain_reputation_and_categorization.py
 	
