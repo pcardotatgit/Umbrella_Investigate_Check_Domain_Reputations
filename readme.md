@@ -24,9 +24,11 @@ Installing these script is pretty straight forward . You can just copy and paste
 	source bin activate
 
 	For Windows 
+	
+	We assume that you already have installed git-bash.  If so open a git-bash console and :
 
-	virtualenv env 
-	\env\Scripts\activate.bat 
+	ptyhon -m venv etid_venv 
+	source /etid_venv/Scripts/activate
 
 ### git clone the scripts
 
@@ -34,6 +36,11 @@ Installing these script is pretty straight forward . You can just copy and paste
 	cd FDM_Add_Security_Rules/
 	
 ### install needed modules
+
+These scripts use the following python modules
+
+- requests
+- json
 
 	pip install -r requirements.txt
 	
@@ -59,6 +66,12 @@ Installing these script is pretty straight forward . You can just copy and paste
 	$python 3-check_domain_security_details.py
 	
 	This above script will give you more details on domains in the domains.txt files. These additionnal criteria could useful to be more accurate on blocking action you will do
+	
+4/ Check Security Reputation of all links contained into a web page
+
+	$python 4-check_links_status_from_a_webpage.py
+	
+	This above script first retreives all domains from url links contained into a web page and check for their Security Information.
 
 # Credit and References
 

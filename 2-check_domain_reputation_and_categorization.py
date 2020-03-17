@@ -98,10 +98,5 @@ def check_categorization(header,file,categories):
 
 if __name__ == '__main__':
 	categories=retrieve_categorie(headers)
-	'''
-	print categories
-	for cle,valeur in categories.items():
-		print (cle+' '+ valeur)
-	'''
 	check_categorization(headers,'domains.txt',categories)
 	
