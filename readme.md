@@ -58,24 +58,24 @@ Then you are ready to go
 
 Next step is to fill the domains.txt file with the domains you want to check. Put one domain per line
 
-Run the scripts
+## Run the scripts
 
 - 1/ for getting basic information for every domains
 
 
-	$python 2-check_domain_reputation_and_categorization.py
+		$python 2-check_domain_reputation_and_categorization.py
 	
 	This above script will output into text file Risk status and categories of all domains in the domains.txt file
 	
-2/ Get more Security information about domains
+- 2/ Get more Security information about domains
 
-	$python 3-check_domain_security_details.py
+		$python 3-check_domain_security_details.py
 	
 	This above script will give you more details on domains in the domains.txt files. These additionnal criteria could useful to be more accurate on blocking action you will do
 	
-4/ Check Security Reputation of all links contained into a web page
+- 3/ Check Security Reputation of all links contained into a web page
 
-	$python 4-check_links_status_from_a_webpage.py
+		$python 4-check_links_status_from_a_webpage.py
 	
 	This above script first retreives all domains from url links contained into a web page and check for their Security Information.
 
