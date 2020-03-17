@@ -27,7 +27,7 @@ Installing these script is pretty straight forward . You can just copy and paste
 	
 	We assume that you already have installed git-bash.  If so open a git-bash console and :
 
-	ptyhon -m venv venv
+	python -m venv venv
 	source /venv/Scripts/activate
 
 ### git clone the scripts
