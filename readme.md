@@ -2,15 +2,19 @@
 
 This set of scripts request domain reputation to the Umbrella Investigate Backend, for a list of domains which are contained into the <b>domain.txt</b> file.
 
-You must have access to INVESTIGATE.  Thanks to this you will be able to generate an Authentication token
+The last script will dynamically get domain reputations for domains in all URLs contained in any INTERNET Web Page.
 
-	investigate_api_key
+You must have access to INVESTIGATEin order to be abal to run these scripts.  Thanks to this you will be able to generate your Authentication token into the Umbrella INVESTIGATE Dashboard.
+
+It is named  **investigate_api_key** in the scripts.
+
+You must store your API token into the **token.txt** file.
 
 For each domain into the <b>domain.txt</b> file, the script retrieves several security information which help to categorize domains by risk.
 
-Result are stored into output text files
+Result are stored into output text files into the **./output** directory
 
-This result can be used to create blocking rules into network security like NGFW
+The goal behind this, is to dynamically create blocking rules into network security devices like Next Gen FireWall
 
 ## Installation
 
