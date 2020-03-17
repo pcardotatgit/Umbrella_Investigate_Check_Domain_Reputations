@@ -27,20 +27,22 @@ Installing these script is pretty straight forward . You can just copy and paste
 	
 	We assume that you already have installed git-bash.  If so open a git-bash console and :
 
-	ptyhon -m venv etid_venv 
-	source /etid_venv/Scripts/activate
+	ptyhon -m venv venv
+	source /venv/Scripts/activate
 
 ### git clone the scripts
 
-	git clone https://github.com/pcardotatgit/FDM_Add_Security_Rules.git
-	cd FDM_Add_Security_Rules/
+	git clone https://github.com/pcardotatgit/Umbrella_Investigate_Check_Domain_Reputations.git
+	cd Umbrella_Investigate_Check_Domain_Reputations/
 	
-### install needed modules
+### install needed python modules
 
 These scripts use the following python modules
 
 - requests
 - json
+
+You can install these modules with the following :
 
 	pip install -r requirements.txt
 	
