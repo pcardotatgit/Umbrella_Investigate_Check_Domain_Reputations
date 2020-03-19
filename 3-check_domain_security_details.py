@@ -16,7 +16,7 @@ or implied.
 
 What does this script :  
 
-	Check reputation of all domain into the domains.txt file
+	Check reputation of all domain into the domains.csv file
 '''
 from datetime import datetime
 from time import sleep
@@ -50,7 +50,7 @@ def check_categorization(header,file,categories):
 		
 	# loop through .txt file and append every domain to list, skip comments
 	domain_list = []
-	with open('domains.txt') as inputfile:
+	with open('domains.csv') as inputfile:
 		for line in inputfile:
 			if line[0] == "#" or line.strip() == "Site":
 				pass
@@ -108,5 +108,5 @@ def check_categorization(header,file,categories):
 
 if __name__ == '__main__':
 	categories=retrieve_categorie(headers)
-	check_categorization(headers,'domains.txt',categories)
+	check_categorization(headers,'domains.csv',categories)
 	
