@@ -64,7 +64,7 @@ Second test your connectivity with INVESTIGATE Backend.  Run the 1-test_access_t
 	
 Then you are ready to go
 
-Next step is to fill the domains.txt file with the domains you want to check. Put one domain per line
+Next step is to fill the domains.csv file with the domains you want to check. Put one domain per line
 
 ## Run the scripts
 
@@ -73,7 +73,7 @@ Next step is to fill the domains.txt file with the domains you want to check. Pu
 
 		$python 2-check_domain_reputation_and_categorization.py
 	
-	This above script will output into text file Risk status and categories of all domains in the domains.txt file
+	This above script will output into text file Risk status and categories of all domains in the domains.csv file
 	
 <img src="2b.png">
 	
@@ -81,7 +81,8 @@ Next step is to fill the domains.txt file with the domains you want to check. Pu
 
 		$python 3-check_domain_security_details.py
 	
-	This above script will give you more details on domains in the domains.txt files. These additionnal criteria could useful to be more accurate on blocking action you will do
+	This above script will give you more details on domains in the domains.csv files. These additionnal criteria could useful to be more accurate on blocking action you will do.
+
 	
 <img src="3b.png">
 	
@@ -91,7 +92,9 @@ Next step is to fill the domains.txt file with the domains you want to check. Pu
 	
 	This above script first retreives all domains from url links contained into a web page and check for their Security Information.
 	
-	The script will ask you for the URL to check
+	The script will ask you for the URL to check : for example www.cars.com  
+	
+	And here the result for all domains found in the landing page of this Web Site. Every looks clean !
 	
 <img src="4b.png">	
 
