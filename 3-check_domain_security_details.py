@@ -1,5 +1,5 @@
 '''
-Copyright (c) 2019 Cisco and/or its affiliates.
+Copyright (c) 2020 Cisco and/or its affiliates.
 
 This software is licensed to you under the terms of the Cisco Sample
 Code License, Version 1.1 (the "License"). You may obtain a copy of the
@@ -16,7 +16,7 @@ or implied.
 
 What does this script :  
 
-	Check reputation of all domain into the domains.csv file
+	Check reputation and security detail of all domains into the domains.csv file
 '''
 from datetime import datetime
 from time import sleep
